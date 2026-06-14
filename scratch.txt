@@ -1,0 +1,12 @@
+Users
+ └── Private bugs only
+
+Bug
+ ├── Title
+ ├── Description
+ ├── Root Cause
+ ├── Investigation
+ ├── Fix
+ ├── Lessons Learned
+ ├── Tags
+ └── Created By
