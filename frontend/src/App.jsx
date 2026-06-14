@@ -11,6 +11,8 @@ import AuthWrapper from './components/AuthWrapper';
 import { useAuth } from './context/AuthContext';
 
 const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || '/api';
+console.log('Environment:', import.meta.env.MODE);
+console.log('API Base URL:', import.meta.env.VITE_API_BASE_URL);
 
 // Main Bug Management Component (protected)
 function BugDiary() {
