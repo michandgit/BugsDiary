@@ -10,7 +10,7 @@ import AuthProvider from './context/AuthContext';
 import AuthWrapper from './components/AuthWrapper';
 import { useAuth } from './context/AuthContext';
 
-const API_BASE_URL = '/api';
+const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || '/api';
 
 // Main Bug Management Component (protected)
 function BugDiary() {
