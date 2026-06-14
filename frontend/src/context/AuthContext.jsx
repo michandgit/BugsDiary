@@ -13,10 +13,6 @@ export const useAuth = () => {
 };
 
 const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || '/api';
-console.log('🔧 Environment:', import.meta.env.MODE);
-console.log('🔧 API Base URL:', API_BASE_URL);
-console.log('🔧 VITE_API_BASE_URL:', import.meta.env.VITE_API_BASE_URL);
-
 
 // Configure axios defaults
 axios.defaults.baseURL = '';
